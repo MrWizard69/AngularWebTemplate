@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Welcome To The Angular Web Template!';
+
+  //git commands
+  //git init <-- starts looking for new changes. used before you work
+  //git commit -m "first commit"
+  //git push -u origin master
 }
